@@ -1,0 +1,53 @@
+*{padding: 0;
+margin: 0;
+font-size: 20px;
+text-decoration:none;
+color: #333;
+list-style: none;
+}
+#body{background-color: #111;}
+
+#geral{max-width: 1300px;height: auto;overflow: hidden; margin:0 auto ;}
+
+
+/*----------------topo do site----------------*/
+#topo{width: 100%; height: 200px; float: left;background-image: url(../img/capa.jpg);}
+.logo{width: 100px; height: auto;float: left;margin: 20px;}
+.links_top{float: right; padding: 15px;margin: 5px; background-color: #145; color: #FFF;}
+.links_top:hover{background-color: #59f;}
+/*----------------fim do topo do site----------------*/
+
+
+
+/*----------------menu do site----------------*/
+#menu{width: 100%; height: 50px; float: left; background-color: #145;}
+.links_menu li a{float: left;padding: 17px;background-color: #145;color: #FFF;}
+.links_menu li a:hover{background-color: #59F;}
+/*----------------fim do menu do site----------------*/
+
+
+
+/*----------------conteudo do site----------------*/
+#conteudo{width: 100%; min-height: 600px; float: left; background-color: #ffffff;}
+#conteudo_principal{width: 70%;min-height: 600px;float: left;border: 1px solid #CCC;margin: 20px 10px;}
+#recentes{width: 26%;min-height: 600px;float: left;border: 1px solid #CCC;margin: 20px 10px;}
+.postagens{width: 100%;height: auto;overflow: hidden;float: left;margin: 10px 0 30px 0;border: 0px solid red;}
+.titulos{font-size: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;float: left;width: 96%;margin:10px 2%;}
+.imagem{width: 100%;height: auto; float: left;margin: 5px 0;}
+.paragrafo,.data{font-size: 16px;color: #111;float: left;width: 96%;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin: 10px 2%;}
+.postagens_recentes{width: 100%;height: auto;overflow: hidden;float: left;margin: 10px 0 30px 0;border: 1px solid red;}
+.titulos a:hover{color: #59F}
+/*----------------fim do conteudo do site----------------*/
+
+
+
+/*----------------campo de cadastro do site----------------*/
+#box_form{width: 80%;min-height: 300px;background-color: #FFF;margin: 40px auto;}
+.bt_cad{float: left;padding: 5px;font-size: 16px;margin-right: 5px;}
+.campos_cad, #botoes, .botoes{width: 80%;margin: 10px;height: 30px;float: left;padding: 2px;font-size: 16px;}
+.form_link{color: #59F;float: left;font-size: 16px;}
+/*----------------fim do campo de cadastro do site----------------*/
+
+.pesquisar{float: right;padding: 17px;height: -8;}
+
+#rodape {width: 100%; height: 50px; float: left; background-color: #DDF;}
